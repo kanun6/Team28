@@ -5,9 +5,9 @@
   tasks:
     - name: Building Docker Image
       docker_image:
-         name: admin-kanun:latest #docker image name
+         name: 66022376-html:latest #docker image name
          source: build
          build:
-            path: ~/admin-kanun #path ที่เก็บไฟล์ sourcecode 
+            path: ~/66022376-html #path ที่เก็บไฟล์ sourcecode 
          state: present
          force_source: true
